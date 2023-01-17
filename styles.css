@@ -104,6 +104,9 @@ h6 {
 body {
   background-color: var(--clr-neutral-mainBg);
   font-family: var(--ff-primary);
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
 }
 
 .card-main {
@@ -119,16 +122,16 @@ body {
 }
 
 .heading {
-  padding: 20px 0 0 0;
+  padding: 1.25rem 0 0 0;
   color: var(--clr-neutral-white);
   font-weight: var(--fw-semiBold);
 }
 
 .info {
-  padding: 12px 0 0 0;
+  padding: 0.75rem 0 0 0;
   color: var(--clr-primary-blue);
   font-weight: var(--fw-light);
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .price-flex {
@@ -144,22 +147,22 @@ body {
 }
 
 .ethereum-icon {
-  margin: 16px 4px 0 0;
-  width: 12px;
-  height: 20px;
+  margin: 1rem 0.25rem 0 0;
+  width: 0.75rem;
+  height: 1.25rem;
 }
 
 .clock-icon {
-  margin: 18px 4px 0 62px;
-  width: 16px;
-  height: 16px;
+  margin: 1rem 0.25rem 0 3.8rem;
+  width: 1rem;
+  height: 1rem;
 }
 
 .price-flex p {
-  margin: 16px 0 0 0;
+  margin: 1rem 0 0 0;
   font-weight: var(--fw-light);
   color: var(--clr-primary-blue);
-  font-size: 14px;
+  font-size: 0.8rem;
 }
 
 .lines {
@@ -172,20 +175,20 @@ body {
 }
 
 .creation {
-  margin-top: 4px;
+  margin-top: 0.25rem;
   color: var(--clr-primary-blue);
-  font-size: 14px;
+  font-size: 0.8rem;
 }
 
 .name {
-  margin-left: 6px;
-  margin-top: 4px;
-  font-size: 14px;
+  margin-left: 0.375rem;
+  margin-top: 0.25rem;
+  font-size: 0.8rem;
   color: var(--clr-neutral-white);
 }
 
 .avatar {
-  margin: 4px 12px 0 0;
-  width: 26px;
-  height: 26px;
+  margin: 0.25rem 0.75rem 0 0;
+  width: 1.625rem;
+  height: 1.625rem;
 }
